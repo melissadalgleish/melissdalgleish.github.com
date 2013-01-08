@@ -30,13 +30,25 @@ letter-spacing:2px;
 
 }
 
+h3 {
+ont-family: "Montserrat", sans-serif;
+color:#444;
+font-size: 12pt;
+text-align: center; 
+text-transform: uppercase;
+letter-spacing:2px; 
+
+}
+
 img {
 	border-style: none;
 	border-color:#cccccc;
 	width: 20%;
 	float:left;
 	padding-top:0px;
-	padding-right: 15px; 
+	-moz-border-radius: 15px;
+border-radius: 15px;
+margin: 10px;
 }
 
 ul {
@@ -46,11 +58,11 @@ padding-left: 0;
 }
 
 a:link {
-	color:orange;
+	color:#444;
 	text-decoration:none;
 }
 a:visited {
-	color:aqua;
+	color:#15A3A3;
 }
 a:hover, 
 a:focus {
